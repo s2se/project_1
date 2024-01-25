@@ -34,7 +34,7 @@ struct HomeView: View {
                             }
                             
                             Text("Good Evening! Let's Eat")
-                                .font(.headline)
+                                .font(.title2)
                                 .fontWeight(.bold)
                                 .foregroundColor(Color.black)
                             Spacer()
@@ -65,10 +65,11 @@ struct HomeView: View {
                                 .font(.headline)
                                 .padding(.bottom, 2)
                                 .foregroundColor(Color.black)
-                            Image("recipeImage")
+                            Image("recipeTest")
                                 .resizable()
                                 .aspectRatio(contentMode: .fill)
                                 .clipped()
+                                .cornerRadius(5)
                         }
                         .padding()
                         .background(RoundedRectangle(cornerRadius: 10).fill(customGrey))
@@ -103,12 +104,13 @@ struct HomeView: View {
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(Color.white)
         }
+        .navigationBarBackButtonHidden(true)
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
 

@@ -5,4 +5,13 @@
 //  Created by Christian Mejillano on 23/1/2024.
 //
 
-import Foundation
+import SwiftUI
+
+@main
+struct PaperBag: App {
+    var body: some Scene {
+        WindowGroup {
+            HomeView()
+        }
+    }
+}

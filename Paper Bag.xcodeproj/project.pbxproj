@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		278976C72B55FF3B009ABCBF /* Paper_BagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976C62B55FF3B009ABCBF /* Paper_BagApp.swift */; };
-		278976C92B55FF3B009ABCBF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976C82B55FF3B009ABCBF /* ContentView.swift */; };
 		278976CB2B55FF3D009ABCBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278976CA2B55FF3D009ABCBF /* Assets.xcassets */; };
 		278976CE2B55FF3D009ABCBF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278976CD2B55FF3D009ABCBF /* Preview Assets.xcassets */; };
+		278976EE2B5F2AF9009ABCBF /* PantryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976ED2B5F2AF9009ABCBF /* PantryItemView.swift */; };
+		278976F02B5F2B95009ABCBF /* RecipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976EF2B5F2B95009ABCBF /* RecipeCardView.swift */; };
+		278976F22B5F2BAB009ABCBF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976F12B5F2BAB009ABCBF /* HomeView.swift */; };
+		278976F42B5F2BBD009ABCBF /* PantryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976F32B5F2BBD009ABCBF /* PantryItem.swift */; };
+		278976F62B5F2DBF009ABCBF /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976F52B5F2DBF009ABCBF /* ProgressBarView.swift */; };
+		278976F82B5F2FCF009ABCBF /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976F72B5F2FCF009ABCBF /* Main.swift */; };
+		278976FC2B61FC1B009ABCBF /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976FB2B61FC1B009ABCBF /* SideMenuView.swift */; };
+		278977002B627BA0009ABCBF /* DetailedStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278976FF2B627BA0009ABCBF /* DetailedStockView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		278976C32B55FF3B009ABCBF /* Paper Bag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paper Bag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		278976C62B55FF3B009ABCBF /* Paper_BagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paper_BagApp.swift; sourceTree = "<group>"; };
-		278976C82B55FF3B009ABCBF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		278976CA2B55FF3D009ABCBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278976CD2B55FF3D009ABCBF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		278976ED2B5F2AF9009ABCBF /* PantryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItemView.swift; sourceTree = "<group>"; };
+		278976EF2B5F2B95009ABCBF /* RecipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCardView.swift; sourceTree = "<group>"; };
+		278976F12B5F2BAB009ABCBF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		278976F32B5F2BBD009ABCBF /* PantryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PantryItem.swift; sourceTree = "<group>"; };
+		278976F52B5F2DBF009ABCBF /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
+		278976F72B5F2FCF009ABCBF /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		278976FB2B61FC1B009ABCBF /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		278976FF2B627BA0009ABCBF /* DetailedStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedStockView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +63,14 @@
 		278976C52B55FF3B009ABCBF /* Paper Bag */ = {
 			isa = PBXGroup;
 			children = (
-				278976C62B55FF3B009ABCBF /* Paper_BagApp.swift */,
-				278976C82B55FF3B009ABCBF /* ContentView.swift */,
+				278976ED2B5F2AF9009ABCBF /* PantryItemView.swift */,
+				278976EF2B5F2B95009ABCBF /* RecipeCardView.swift */,
+				278976F12B5F2BAB009ABCBF /* HomeView.swift */,
+				278976FF2B627BA0009ABCBF /* DetailedStockView.swift */,
+				278976FB2B61FC1B009ABCBF /* SideMenuView.swift */,
+				278976F72B5F2FCF009ABCBF /* Main.swift */,
+				278976F52B5F2DBF009ABCBF /* ProgressBarView.swift */,
+				278976F32B5F2BBD009ABCBF /* PantryItem.swift */,
 				278976CA2B55FF3D009ABCBF /* Assets.xcassets */,
 				278976CC2B55FF3D009ABCBF /* Preview Content */,
 			);
@@ -99,6 +117,7 @@
 				TargetAttributes = {
 					278976C22B55FF3B009ABCBF = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -137,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				278976C92B55FF3B009ABCBF /* ContentView.swift in Sources */,
-				278976C72B55FF3B009ABCBF /* Paper_BagApp.swift in Sources */,
+				278976F82B5F2FCF009ABCBF /* Main.swift in Sources */,
+				278976F42B5F2BBD009ABCBF /* PantryItem.swift in Sources */,
+				278976F02B5F2B95009ABCBF /* RecipeCardView.swift in Sources */,
+				278976FC2B61FC1B009ABCBF /* SideMenuView.swift in Sources */,
+				278976EE2B5F2AF9009ABCBF /* PantryItemView.swift in Sources */,
+				278977002B627BA0009ABCBF /* DetailedStockView.swift in Sources */,
+				278976F22B5F2BAB009ABCBF /* HomeView.swift in Sources */,
+				278976F62B5F2DBF009ABCBF /* ProgressBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +294,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Paper Bag/Preview Content\"";
@@ -288,6 +314,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.test.Paper-Bag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Paper Bag/Paper Bag-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +326,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Paper Bag/Preview Content\"";
@@ -317,6 +346,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "personal.test.Paper-Bag";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Paper Bag/Paper Bag-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
